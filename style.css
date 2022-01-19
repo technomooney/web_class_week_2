@@ -1,0 +1,49 @@
+body {
+    background-color: #2b2b2b;
+    color: aliceblue;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    font-family: 'Impact', "Droid Serif", cursive, serif;
+}
+
+.heading2-modifier {
+    color: #00ffbb;
+}
+
+#page-title {
+    text-shadow: 0 4px #4d4d55;
+}
+/* used what you taught and https://www.w3docs.com/snippets/css/how-to-change-link-colors-in-html.html to do this */
+a:link {
+    color: chartreuse;}
+
+a:visited {
+    color: green;
+}
+
+.fav-music-names {
+    text-shadow: 1px 4px #5d5d55;
+}
+
+li {
+    list-style-type: square;
+    padding: 3px;
+}
+
+
+#most-fav {
+    font-weight: bold; color: limegreen; text-decoration: underline;
+}
+
+.second-fav {
+    font-style: italic; color: darkviolet;
+}
+
+.fav-sections {
+    border: 6px #4d8d8d ridge;
+    margin: 10px;
+    padding: 15px;
+}
