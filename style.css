@@ -49,15 +49,19 @@ li {
 }
 
 .image-container {
-    border: 6px #4d8d8d ridge;
-    margin: 10px;
-    padding: 15px;
+    child-align: middle;
 }
 
+/* I found out how to center an image here */
+/* https://www.w3schools.com/howto/howto_css_image_center.asp */
+/* then I looked up the display property and read about it here */
+/* https://www.w3schools.com/CSSref/pr_class_display.asp */
+
 .favorite-image {
-    align-content: center;
     border: 10px #4d8d8d inset;
-    width: 99%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: block;
+    /* I let webstorm convert what i had to margin shorthand then read up on it here*/
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties */
+    margin: 2% auto;
+    width: 90%;
 }
