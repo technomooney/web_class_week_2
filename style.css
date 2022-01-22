@@ -63,5 +63,29 @@ li {
     /* I let webstorm convert what i had to margin shorthand then read up on it here*/
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties */
     margin: 2% auto;
-    width: 90%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+table {
+    border: 6px #4d8d8d ridge;
+    border-collapse: collapse;
+    width: 100%;
+
+
+
+}
+th,tr,td {
+    border: 2px #4d8d8d inset;
+    text-align: center;
+}
+th {
+    background-color: black;
+}
+tr:nth-child(even) {
+    background-color: #3d3d3d;
+}
+
+tr:nth-child(odd) {
+    background-color: #3d203d;
 }
